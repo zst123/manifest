@@ -278,7 +278,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="AOSPA-armv6/android_frameworks_av" remote="github" revision="kitkat" groups="pdk" />
-  <project path="frameworks/base" name="AOSPA-legacy/android_frameworks_base" remote="github" revision="kitkat" />
+  <project path="frameworks/base" name="AOSPA-armv6/android_frameworks_base" remote="github" revision="kitkat" />
   <project path="frameworks/compile/libbcc" name="androidarmv6/android_frameworks_compile_libbcc" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="frameworks/compile/slang" name="androidarmv6/android_frameworks_compile_slang" remote="cm" revision="cm-11.0" groups="pdk" />
