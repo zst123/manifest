@@ -28,7 +28,7 @@
            sync-f="true"
            sync-j="4" />
 
-  <project path="manifest" name="AOSPA-armv6/manifest" remote="github" revision="kitkat" />
+  <project path="manifest" name="zst123/manifest" remote="github" revision="kitkat" />
 
   <project path="build" name="AOSPA-armv6/android_build" remote="github" revision="kitkat" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -457,15 +457,17 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-  <project path="vendor/pa" name="AOSPA-armv6/android_vendor_pa" remote="github" revision="kitkat" >
+  <project path="vendor/pa" name="zst123/android_vendor_pa" remote="github" revision="kitkat" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
+  <project path="vendor/cm" name="androidarmv6/android_vendor_cm" remote="cm" revision="cm-11.0" />
+  <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" remote="cm" revision="cm-11.0" />
+  <project path="vendor/google" name="androidarmv6/android_vendor_google" remote="cm" revision="cm-11.0" />
 
-  <project name="CyanogenMod/android_device_htc_common" path="device/htc/common" revision="refs/heads/gingerbread" remote="cm" />
-  <project name="AOSPA-armv6/android_device_htc_marvel" path="device/htc/marvel" remote="github" revision="kitkat" />
-  <project name="AOSPA-armv6/android_device_htc_msm7x27-common" path="device/htc/msm7x27-common" remote="github" revision="kitkat" />
-  <project name="androidarmv6/android_device_qcom_msm7x27" path="device/qcom/msm7x27" remote="cm" revision="cm-11.0" />
-  <project name="SimplicityCM/android_kernel_htc_msm7x27" path="kernel/htc/msm7x27" remote="cm" revision="cm-11.0" />
-  <project name="androidarmv6/android_vendor_qcom_msm7x27" path="vendor/qcom/msm7x27" remote="cm" revision="cm-11.0" />
-  <project name="SimplicityCM/proprietary_vendor_htc" path="vendor/htc" remote="cm" revision="cm-11.0" />
+  <!-- cooper specific -->
+  <project name="androidarmv6/android_device_samsung_msm7x27-common" path="device/samsung/msm7x27-common" revision="cm-11.0" remote="cm" />
+  <project name="zst123/android_device_samsung_cooper" path="device/samsung/cooper" remote="github" revision="cm-11.0" />
+  <project name="androidarmv6/android_kernel_samsung_msm7x27" path="kernel/samsung/msm7x27" remote="cm" revision="cm-11.0" />
+  <project name="androidarmv6/android_vendor_samsung" path="vendor/samsung" remote="cm" revision="cm-11.0" />
+  <project name="androidarmv6/android_hardware_atheros_ath6kl-compat" path="hardware/atheros/ath6kl-compat" remote="cm" revision="cm-11.0" />
 </manifest>
