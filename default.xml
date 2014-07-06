@@ -470,4 +470,6 @@
   <project name="androidarmv6/android_kernel_samsung_msm7x27" path="kernel/samsung/msm7x27" remote="cm" revision="cm-11.0" />
   <project name="androidarmv6/android_vendor_samsung" path="vendor/samsung" remote="cm" revision="cm-11.0" />
   <project name="androidarmv6/android_hardware_atheros_ath6kl-compat" path="hardware/atheros/ath6kl-compat" remote="cm" revision="cm-11.0" />
+  <project name="androidarmv6/android_device_qcom_msm7x27" path="device/qcom/msm7x27" remote="github" revision="cm-11.0" />
+  <project name="androidarmv6/android_vendor_qcom_msm7x27" path="vendor/qcom/msm7x27" remote="github" revision="cm-11.0" />
 </manifest>
